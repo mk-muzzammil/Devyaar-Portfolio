@@ -1,17 +1,17 @@
-import React from 'react'
-import Link from 'next/link'
-import icon1 from '/public/images/shapes/shape_space_2.svg'
-import icon2 from '/public/images/icons/icon_mail_2.svg'
+import React from "react";
+import Link from "next/link";
+import icon1 from "/public/images/shapes/shape_space_2.svg";
+import icon2 from "/public/images/icons/icon_mail_2.svg";
 import Slider from "react-slick";
-import Image from 'next/image';
+import Image from "next/image";
 
 const ClickHandler = () => {
   window.scrollTo(10, 0);
-}
+};
 
 const SubmitHandler = (e) => {
-  e.preventDefault()
-}
+  e.preventDefault();
+};
 
 var settings = {
   dots: false,
@@ -30,123 +30,174 @@ var settings = {
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
-      }
+      },
     },
     {
       breakpoint: 991,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 1
-      }
+        slidesToScroll: 1,
+      },
     },
     {
       breakpoint: 767,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 1
-      }
+        slidesToScroll: 1,
+      },
     },
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1
-      }
+        slidesToScroll: 1,
+      },
     },
     {
       breakpoint: 450,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1
-      }
+        slidesToScroll: 1,
+      },
     },
     {
       breakpoint: 350,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
+        slidesToScroll: 1,
+      },
+    },
+  ],
 };
 
 const Footer = (props) => {
   return (
-    <footer className="site_footer footer_layout_2 section_decoration" style={{ backgroundImage: `url(${'/images/shapes/bg_pattern_3.svg'})` }}>
+    <footer
+      className="site_footer footer_layout_2 section_decoration"
+      style={{ backgroundImage: `url(${"/images/shapes/bg_pattern_3.svg"})` }}
+    >
       <div className="decoration_item shape_image_1">
-        <Image src={icon1} alt="Techco Shape" />
+        <Image src={icon1} alt="Devyaar Shape" />
       </div>
       <div className="container">
         <div className="service_pill_carousel swiper">
           <Slider {...settings}>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Custom Web Apps</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>App Development</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Web Development</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Software Solution</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Enterprise Apps</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Devops Services</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Custom Web Apps</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>App Development</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Web Development</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Software Solution</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Enterprise Apps</span>
               </Link>
             </div>
             <div className="swiper-slide">
-              <Link onClick={ClickHandler} href="/home_software_company" className="service_pill_block">
+              <Link
+                onClick={ClickHandler}
+                href="/home_software_company"
+                className="service_pill_block"
+              >
                 <i className="fa-solid fa-check"></i>
                 <span>Devops Services</span>
               </Link>
@@ -161,44 +212,32 @@ const Footer = (props) => {
                 <ul className="icon_list unordered_list_block">
                   <li>
                     <Link onClick={ClickHandler} href="/about">
-                      <span className="icon_list_text">
-                        About
-                      </span>
+                      <span className="icon_list_text">About</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/portfolio">
-                      <span className="icon_list_text">
-                        Our achievements
-                      </span>
+                      <span className="icon_list_text">Our achievements</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/about">
-                      <span className="icon_list_text">
-                        Our partners
-                      </span>
+                      <span className="icon_list_text">Our partners</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/contact">
-                      <span className="icon_list_text">
-                        Our locations
-                      </span>
+                      <span className="icon_list_text">Our locations</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/portfolio">
-                      <span className="icon_list_text">
-                        Careers
-                      </span>
+                      <span className="icon_list_text">Careers</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/contact">
-                      <span className="icon_list_text">
-                        Contacts
-                      </span>
+                      <span className="icon_list_text">Contacts</span>
                     </Link>
                   </li>
                 </ul>
@@ -210,44 +249,32 @@ const Footer = (props) => {
                 <ul className="icon_list unordered_list_block">
                   <li>
                     <Link onClick={ClickHandler} href="/home_software_company">
-                      <span className="icon_list_text">
-                        Cloud solutions
-                      </span>
+                      <span className="icon_list_text">Cloud solutions</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/home_software_company">
-                      <span className="icon_list_text">
-                        Data warehouse
-                      </span>
+                      <span className="icon_list_text">Data warehouse</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/home_software_company">
-                      <span className="icon_list_text">
-                        Data management
-                      </span>
+                      <span className="icon_list_text">Data management</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/home_software_company">
-                      <span className="icon_list_text">
-                        BI services
-                      </span>
+                      <span className="icon_list_text">BI services</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/home_software_company">
-                      <span className="icon_list_text">
-                        Big data
-                      </span>
+                      <span className="icon_list_text">Big data</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/home_software_company">
-                      <span className="icon_list_text">
-                        Data science
-                      </span>
+                      <span className="icon_list_text">Data science</span>
                     </Link>
                   </li>
                 </ul>
@@ -259,44 +286,32 @@ const Footer = (props) => {
                 <ul className="icon_list unordered_list_block">
                   <li>
                     <Link onClick={ClickHandler} href="/contact">
-                      <span className="icon_list_text">
-                        Insurance
-                      </span>
+                      <span className="icon_list_text">Insurance</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/home_software_company">
-                      <span className="icon_list_text">
-                        Banking
-                      </span>
+                      <span className="icon_list_text">Banking</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/service">
-                      <span className="icon_list_text">
-                        Fintech
-                      </span>
+                      <span className="icon_list_text">Fintech</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/home_software_company">
-                      <span className="icon_list_text">
-                        Logistics
-                      </span>
+                      <span className="icon_list_text">Logistics</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/service">
-                      <span className="icon_list_text">
-                        Retail
-                      </span>
+                      <span className="icon_list_text">Retail</span>
                     </Link>
                   </li>
                   <li>
                     <Link onClick={ClickHandler} href="/portfolio">
-                      <span className="icon_list_text">
-                        Healthcare
-                      </span>
+                      <span className="icon_list_text">Healthcare</span>
                     </Link>
                   </li>
                 </ul>
@@ -306,17 +321,21 @@ const Footer = (props) => {
               <div className="footer_widget pe-lg-3">
                 <h2 className="footer_info_title">Newsletter</h2>
                 <p>
-                  Sign up to Techco weekly newsletter to get the latest updates.
+                  Sign up to Devyaar weekly newsletter to get the latest
+                  updates.
                 </p>
                 <form className="footer_newslatter_2" onSubmit={SubmitHandler}>
                   <label htmlFor="footer_mail_input">
                     <Image src={icon2} alt="Mail SVG Icon" />
                   </label>
-                  <input id="footer_mail_input" type="email" name="email" placeholder="Enter your email" />
+                  <input
+                    id="footer_mail_input"
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                  />
                   <button type="submit">Send</button>
                 </form>
-
-
 
                 <ul className="social_icons_block unordered_list">
                   <li>
@@ -345,10 +364,15 @@ const Footer = (props) => {
           </div>
         </div>
       </div>
-      <div className="footer_bottom" style={{ backgroundImage: `url(${'/images/shapes/shape_space_6.svg'})` }}>
+      <div
+        className="footer_bottom"
+        style={{
+          backgroundImage: `url(${"/images/shapes/shape_space_6.svg"})`,
+        }}
+      >
         <div className="container d-md-flex align-items-md-center justify-content-md-between">
           <p className="copyright_text m-0">
-            Copyright © 2024 Techco, All rights reserved.
+            Copyright © 2024 Devyaar, All rights reserved.
           </p>
           <ul className="icon_list unordered_list">
             <li>
@@ -356,9 +380,7 @@ const Footer = (props) => {
                 <span className="icon_list_icon">
                   <i className="fa-solid fa-circle"></i>
                 </span>
-                <span className="icon_list_text">
-                  Terms of Up
-                </span>
+                <span className="icon_list_text">Terms of Up</span>
               </Link>
             </li>
             <li>
@@ -366,16 +388,14 @@ const Footer = (props) => {
                 <span className="icon_list_icon">
                   <i className="fa-solid fa-circle"></i>
                 </span>
-                <span className="icon_list_text">
-                  Privacy Policy
-                </span>
+                <span className="icon_list_text">Privacy Policy</span>
               </Link>
             </li>
           </ul>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;

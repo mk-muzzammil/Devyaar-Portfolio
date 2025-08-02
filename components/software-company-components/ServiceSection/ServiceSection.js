@@ -35,7 +35,7 @@ const ServiceSection = (props) => {
             <div className="col-lg-4" key={srv}>
               <div className="service_block_2">
                 <div className="service_icon">
-                  <Image src={service.sImg} alt="Techco - Service icon" />
+                  <Image src={service.sImg} alt="Devyaar - Service icon" />
                 </div>
                 <h3 className="service_title">
                   <Link
@@ -63,19 +63,19 @@ const ServiceSection = (props) => {
       </div>
 
       <div className="decoration_item shape_image_1">
-        <Image src={shape1} alt="Techco Shape" />
+        <Image src={shape1} alt="Devyaar Shape" />
       </div>
       <div className="decoration_item shape_image_2">
-        <Image src={shape2} alt="Techco Shape" />
+        <Image src={shape2} alt="Devyaar Shape" />
       </div>
       <div className="decoration_item shape_image_3">
-        <Image src={shape3} alt="Techco Shape" />
+        <Image src={shape3} alt="Devyaar Shape" />
       </div>
       <div className="decoration_item shape_image_4">
-        <Image src={shape4} alt="Techco Shape Angle" />
+        <Image src={shape4} alt="Devyaar Shape Angle" />
       </div>
       <div className="decoration_item shape_image_5">
-        <Image src={shape5} alt="Techco Shape Angle" />
+        <Image src={shape5} alt="Devyaar Shape Angle" />
       </div>
     </section>
   );

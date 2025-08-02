@@ -5,9 +5,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import icon1 from "/public/images/icons/icon_c.svg";
 import icon2 from "/public/images/icons/icon_g2.svg";
-import tImg1 from "/public/images/avatar/avatar_5.webp";
-import tImg2 from "/public/images/avatar/avatar_6.webp";
-import tImg3 from "/public/images/avatar/avatar_7.webp";
+import tImg1 from "/public/images/avatar/avatar_1.png";
+import tImg2 from "/public/images/avatar/avatar_2.png";
+import tImg3 from "/public/images/avatar/avatar_3.png";
 
 import clogo from "/public/images/clients/client_logo_8.webp";
 import flag from "/public/images/flag/ukraine_flag.webp";
@@ -62,35 +62,11 @@ const Testimonial = () => {
       <div className="col-lg-4">
         <div className="deals_winner_customers">
           <h3 className="title_text">
-            <mark>3,900+</mark> customers win deals with Techco
+            <mark>100+</mark> customers win deals with Devyaar
           </h3>
           <div className="row">
             <div className="col-6">
-              <div className="review_short_info">
-                <div className="icon">
-                  <Image src={icon1} alt="C SVG Icon" />
-                </div>
-                <ul className="rating_block unordered_list">
-                  <li>
-                    <i className="fa-solid fa-star fa-fw"></i>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-star fa-fw"></i>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-star fa-fw"></i>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-star fa-fw"></i>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-star fa-fw"></i>
-                  </li>
-                </ul>
-                <div className="review_counter">
-                  From <b>200+</b> reviews
-                </div>
-              </div>
+              <div className="review_short_info"></div>
             </div>
             <div className="col-6">
               <div className="review_short_info">

@@ -28,28 +28,34 @@ const ContactSection = (props) => {
               </div>
               <ul className="contact_method_list unordered_list_block">
                 <li>
-                  <a href="tel:+8801680636189">
+                  <a href="tel:+923197280131">
                     <span className="icon">
                       <i className="fa-solid fa-phone-volume"></i>
                     </span>
-                    <span className="text">+880-1680-6361-89</span>
+                    <span className="text">+92-319-7280131</span>
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:Techco@gmail.com">
+                  <a href="mailto:devyaarofficial@gmail.com">
                     <span className="icon">
                       <i className="fa-solid fa-envelope"></i>
                     </span>
-                    <span className="text">Techco@gmail.com</span>
+                    <span className="text">devyaarofficial@gmail.com</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#!">
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "1.2rem",
+                    }}
+                  >
                     <span className="icon">
                       <i className="fa-solid fa-location-dot"></i>
                     </span>
-                    <span className="text">Sunshine Business Park</span>
-                  </a>
+                    <span className="text">Islamabad, Pakistan</span>
+                  </div>
                 </li>
               </ul>
               <ul className="support_step unordered_list_block">
@@ -88,13 +94,13 @@ const ContactSection = (props) => {
         </div>
       </div>
       <div className="decoration_item shape_image_1">
-        <Image src={shape1} alt="Techco Shape" />
+        <Image src={shape1} alt="Devyaar Shape" />
       </div>
       <div className="decoration_item shape_image_2">
-        <Image src={shape2} alt="Techco Shape" />
+        <Image src={shape2} alt="Devyaar Shape" />
       </div>
       <div className="decoration_item shape_image_3">
-        <Image src={shape3} alt="Techco Shape" />
+        <Image src={shape3} alt="Devyaar Shape" />
       </div>
     </section>
   );

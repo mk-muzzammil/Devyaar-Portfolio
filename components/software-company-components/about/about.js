@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Project from "../../../api/project";
-import about1 from "/public/images/about/about_image_6.webp";
-import aIcon1 from "/public/images/avatar/avatar_1.webp";
-import aIcon2 from "/public/images/avatar/avatar_2.webp";
-import aIcon3 from "/public/images/avatar/avatar_3.webp";
+import about1 from "/public/images/about/about_image_6.png";
+import aIcon1 from "/public/images/avatar/avatar_1.png";
+import aIcon2 from "/public/images/avatar/avatar_2.png";
+import aIcon3 from "/public/images/avatar/avatar_3.png";
 import aIcon4 from "/public/images/icons/icon_global.svg";
 import aIcon5 from "/public/images/shapes/shape_line.webp";
 import shape1 from "/public/images/shapes/shape_space_2.svg";
@@ -27,7 +27,7 @@ const About = (props) => {
           <div className="col-lg-7 order-lg-last">
             <div className="about_image_2">
               <div className="image_wrap">
-                <Image src={about1} alt="Techco - About" />
+                <Image src={about1} alt="Devyaar - About" />
               </div>
               <div
                 className="about_funfact_info"
@@ -47,25 +47,24 @@ const About = (props) => {
                       <Image src={aIcon3} alt="Customer Avatar" />
                     </li>
                     <li>
-                      <span>6k+</span>
+                      <span>10+</span>
                     </li>
                   </ul>
-                  <p className="mb-0">Happy Customer</p>
+                  <p className="mb-0">Happy Clients</p>
                 </div>
                 <div className="about_funfact_counter">
                   <div className="funfact_item">
                     <div className="counter_value">
                       <span className="odometer" data-count="6">
-                        0
+                        100+
                       </span>
-                      <span>K+</span>
                     </div>
                     <h3 className="funfact_title mb-0">Projects Done</h3>
                   </div>
                   <div className="funfact_item">
                     <div className="counter_value">
                       <span className="odometer" data-count="100">
-                        0
+                        95
                       </span>
                       <span>%</span>
                     </div>
@@ -101,10 +100,10 @@ const About = (props) => {
                   About Us
                 </div>
                 <h2 className="heading_text">
-                  Techco <mark>Mission & Goal</mark>
+                  Devyaar <mark>Mission & Goal</mark>
                 </h2>
                 <p className="heading_description mb-0">
-                  At Techco, our mission is to empower businesses through
+                  At Devyaar, our mission is to empower businesses through
                   innovative software solutions that streamline operations,
                   foster growth, and drive success. With a commitment to
                   excellence and customer satisfaction we strive.
@@ -133,7 +132,7 @@ const About = (props) => {
             {Project.slice(6, 9).map((project, prj) => (
               <div className="case_study_block" key={prj}>
                 <div className="case_study_image">
-                  <Image src={project.pImg} alt="Techco - Cases" />
+                  <Image src={project.pImg} alt="Devyaar - Cases" />
                 </div>
                 <div className="case_study_content">
                   <ul className="category_list unordered_list text-uppercase">
@@ -211,7 +210,7 @@ const About = (props) => {
         </div>
       </div>
       <div className="decoration_item shape_image_1">
-        <Image src={shape1} alt="Techco Shape" />
+        <Image src={shape1} alt="Devyaar Shape" />
       </div>
     </section>
   );

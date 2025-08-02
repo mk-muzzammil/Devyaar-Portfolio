@@ -1,7 +1,7 @@
 /* Table Of Content - start
 ================================================== */
 /* 
-* Project Name   :  Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template
+* Project Name   :  Devyaar – IT Solutions & Technology, Business Consulting, Software Company Site Template
 * File           :  CSS Base
 * Version        :  1.0.0
 * Author         :  XpressBuddy (https://themeforest.net/user/xpressbuddy/portfolio)
@@ -63,54 +63,54 @@
 ================================================== */
 
 // Template Global Settings
-@import 'variable';
-@import 'fonts';
-@import 'reset';
+@import "variable";
+@import "fonts";
+@import "reset";
 
 // Template Elements
-@import 'elements/animation';
-@import 'elements/backtotop';
-@import 'elements/space';
-@import 'elements/button';
-@import 'elements/typography';
-@import 'elements/list';
-@import 'elements/form';
-@import 'elements/carousel';
-@import 'elements/iconblock';
-@import 'elements/iconbox';
-@import 'elements/tab';
-@import 'elements/funfact';
-@import 'elements/authorbox';
-@import 'elements/video';
-@import 'elements/social';
-@import 'elements/rating';
-@import 'elements/accordion';
-@import 'elements/pagination';
+@import "elements/animation";
+@import "elements/backtotop";
+@import "elements/space";
+@import "elements/button";
+@import "elements/typography";
+@import "elements/list";
+@import "elements/form";
+@import "elements/carousel";
+@import "elements/iconblock";
+@import "elements/iconbox";
+@import "elements/tab";
+@import "elements/funfact";
+@import "elements/authorbox";
+@import "elements/video";
+@import "elements/social";
+@import "elements/rating";
+@import "elements/accordion";
+@import "elements/pagination";
 
 // Template Parts
-@import 'template-parts/header';
-@import 'template-parts/footer';
-@import 'template-parts/pagebanner';
-@import 'template-parts/sidebar';
+@import "template-parts/header";
+@import "template-parts/footer";
+@import "template-parts/pagebanner";
+@import "template-parts/sidebar";
 
 // Template Components
-@import 'components/blog';
-@import 'components/calltoaction';
-@import 'components/case';
-@import 'components/clientlogo';
-@import 'components/hero';
-@import 'components/policy';
-@import 'components/portfolio';
-@import 'components/review';
-@import 'components/service';
-@import 'components/team';
+@import "components/blog";
+@import "components/calltoaction";
+@import "components/case";
+@import "components/clientlogo";
+@import "components/hero";
+@import "components/policy";
+@import "components/portfolio";
+@import "components/review";
+@import "components/service";
+@import "components/team";
 
 // Template Pages
-@import 'templates/about';
-@import 'templates/contact';
-@import 'templates/details';
-@import 'templates/pricing';
-@import 'templates/home';
+@import "templates/about";
+@import "templates/contact";
+@import "templates/details";
+@import "templates/pricing";
+@import "templates/home";
 
 // Template Responsive For Small Devices
-@import 'responsive';
+@import "responsive";

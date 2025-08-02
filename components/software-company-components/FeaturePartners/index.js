@@ -104,7 +104,7 @@ const FeaturePartners = (props) => {
           <Slider {...settings}>
             {partners.map((partner, pitem) => (
               <div className="client_logo_item" key={pitem}>
-                <Image src={partner.pImg} alt="Techco - Client Logo" />
+                <Image src={partner.pImg} alt="Devyaar - Client Logo" />
               </div>
             ))}
           </Slider>

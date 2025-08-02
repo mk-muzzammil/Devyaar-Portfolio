@@ -468,10 +468,10 @@ const FaqSection = (props) => {
         </div>
       </div>
       <div className="decoration_item shape_image_1">
-        <Image src={shape1} alt="Techco Shape" />
+        <Image src={shape1} alt="Devyaar Shape" />
       </div>
       <div className="decoration_item shape_image_2">
-        <Image src={shape2} alt="Techco Shape Angle" />
+        <Image src={shape2} alt="Devyaar Shape Angle" />
       </div>
     </section>
   );

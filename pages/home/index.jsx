@@ -23,7 +23,7 @@ const HomePage2 = () => {
           <About />
           <ProcessTechnology />
           <FaqSection />
-          <BlogSection />
+          {/* <BlogSection /> */}
           <ContactSection />
         </main>
         <Footer />
