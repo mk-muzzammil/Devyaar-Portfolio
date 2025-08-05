@@ -2,9 +2,9 @@ import React from "react";
 import Link from "next/link";
 import heroImg from "/public/images/hero/hero-01.jpg";
 import icon from "/public/images/icons/icon_stars_trustpilot.svg";
-import avatar1 from "/public/images/avatar/avatar_1.webp";
-import avatar2 from "/public/images/avatar/avatar_2.webp";
-import avatar3 from "/public/images/avatar/avatar_3.webp";
+import avatar1 from "/public/images/avatar/avatar_1.png";
+import avatar2 from "/public/images/avatar/avatar_2.png";
+import avatar3 from "/public/images/avatar/avatar_3.png";
 import Image from "next/image";
 
 const Hero = () => {

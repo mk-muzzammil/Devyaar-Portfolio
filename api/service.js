@@ -72,46 +72,76 @@ const Services = [
         description:'Expert Guidance for a Seamless Immigration Journey Expert Guidance...',
     },
     {
-        Id: '6',
-        sImg:icon1,
-        title: 'Custom Software Development',
-        slug: 'Custom Software Development',
-        features: ['Software architecture design', 'System integration services', 'Data migration services', 'Legacy app modernization']
+    "Id": "6",
+    "sImg": icon1,
+    "title": "Custom Software Development",
+    "slug": "custom-software-development",
+    "features": [
+        "Enterprise-grade software architecture design",
+        "Seamless system integration services",
+        "Secure data migration solutions",
+        "Legacy application modernization & refactoring"
+    ]
     },
     {
-        Id: '7',
-        sImg:icon2,
-        title: 'Audit & IT Consulting Services',
-        slug: 'Audit-&-IT-Consulting-Services',
-        features: ['TechGuard Audit', 'CyberSafe Audit & IT Consulting', 'AssuranceEdge & IT Consulting', 'IT Sentry Audit & IT Consulting']
+    "Id": "7",
+    "sImg": icon2,
+    "title": "IT Audit & Consulting Services",
+    "slug": "audit-it-consulting-services",
+    "features": [
+        "TechGuard Security & IT Audit",
+        "CyberSafe Risk Assessment & Consulting",
+        "AssuranceEdge Compliance & IT Strategy",
+        "IT Sentry Infrastructure Audit & Advisory"
+    ]
     },
     {
-        Id: '8',
-        sImg:icon3,
-        title: 'Web Application Design and Development',
-        slug: 'Web-Application-Design-and-Development',
-        features: ['Web app development services', 'Web portal development services', 'Website development services', 'Offshore web development']
+    "Id": "8",
+    "sImg": icon3,
+    "title": "Web App Design & Full‑Stack Development",
+    "slug": "web-application-design-development",
+    "features": [
+        "Custom web application development",
+        "Enterprise web portal engineering",
+        "Responsive website development",
+        "Offshore full‑stack web development teams"
+    ]
     },
     {
-        Id: '9',
-        sImg:icon4,
-        title: 'Mobile App Design and Development',
-        slug: 'Mobile-App-Design-and-Development',
-        features: ['Android development services', 'iOS app development services', 'Mobile application design services', 'Enterprise mobile app development']
+    "Id": "9",
+    "sImg": icon4,
+    "title": "Mobile & Cross‑Platform App Development",
+    "slug": "mobile-app-design-development",
+    "features": [
+        "Android native & Kotlin app development",
+        "iOS Swift and SwiftUI app solutions",
+        "UX‑driven mobile app design",
+        "Enterprise mobile app architecture & delivery"
+    ]
     },
     {
-        Id: '10',
-        sImg:icon5,
-        title: 'Best UI/UX Design Services',
-        slug: 'Best-UI/UX-Design-Services',
-        features: ['PixelPerfection UI/UX Design', 'DesignCraft UI/UX Design', 'CreativeWave UI/UX Design', 'InterfaceGenius UI/UX Design']
+    "Id": "10",
+    "sImg": icon5,
+    "title": "Premium UI/UX Design Services",
+    "slug": "premium-ui-ux-design-services",
+    "features": [
+        "Pixel‑perfect UI/UX design experience",
+        "DesignCraft branding & interaction design",
+        "CreativeWave visual storytelling",
+        "InterfaceGenius usability testing & prototypes"
+    ]
     },
     {
-        Id: '11',
-        sImg:icon6,
-        title: 'Maintenance and Customer Support',
-        slug: 'Maintenance-and-Customer-Support',
-        features: ['CareCraft Maintenance', 'FixItPro Maintenance', 'TechCare Maintenance', 'AssistEdge Maintenance']
+    "Id": "11",
+    "sImg": icon6,
+    "title": "Ongoing Maintenance & Dedicated Support",
+    "slug": "maintenance-customer-support",
+    "features": [
+        "CareCraft proactive system maintenance",
+        "FixItPro rapid incident resolution",
+        "TechCare SLA‑based support services",
+        "AssistEdge 24/7 helpdesk & technical support"
+    ]
     },
     {
         Id: '12',

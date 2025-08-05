@@ -173,7 +173,7 @@ const BusinessFooter = (props) => {
           <p className="copyright_text m-0">
             Developed by{" "}
             <Link onClick={ClickHandler} href="/" target="_blank">
-              XpressBuddy
+              Dev Yaar
             </Link>
           </p>
         </div>

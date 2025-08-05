@@ -288,7 +288,7 @@ const Header = (props) => {
                                   </div>
                                   <div className="author_box_content">
                                     <h3 className="author_name text-white">
-                                      Mudassir Jaleel
+                                      Muhammad's
                                     </h3>
                                     <span className="author_designation text-white">
                                       Founder at Devyaar
@@ -644,12 +644,12 @@ const Header = (props) => {
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/">
+                      {/* <Link onClick={ClickHandler} href="/">
                         Careers{" "}
                         <small className="badge bg-danger-subtle text-danger">
                           We’re Hiring
                         </small>
-                      </Link>
+                      </Link> */}
                     </li>
                   </ul>
                 </div>

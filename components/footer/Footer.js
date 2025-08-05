@@ -30,7 +30,7 @@ const Footer = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title">Write to us</h3>
-                <p className="mb-0">Devyaar@gmail.com</p>
+                <p className="mb-0">devyaarofficial@gmail.com</p>
               </div>
             </div>
             <div className="iconbox_block layout_icon_left">
@@ -39,7 +39,7 @@ const Footer = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title"> Call Us (USA)</h3>
-                <p className="mb-0">+(1) 1230 452 8597</p>
+                <p className="mb-0">+(92) 319-7280131</p>
               </div>
             </div>
             <div className="iconbox_block layout_icon_left">
@@ -48,7 +48,7 @@ const Footer = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title">Our Office</h3>
-                <p className="mb-0">Waterloo, Park, Australia</p>
+                <p className="mb-0">Islamabad, Pakistan</p>
               </div>
             </div>
           </div>
@@ -206,7 +206,7 @@ const Footer = (props) => {
           <p className="copyright_text m-0">
             Developed by{" "}
             <Link onClick={ClickHandler} href="/">
-              XpressBuddy
+              Dev Yaar
             </Link>
           </p>
         </div>
